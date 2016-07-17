@@ -7,7 +7,7 @@
     <div id="content">
       <h1> Bookmark List </h1>
       <ul>
-        {% for bookmark in Bookmarks %}
+        {% for bookmark in object_list %}
           <li><a href="{% url 'detail' bookmark.id %}"> {{bookmark}} </a></li>
         {% endfor %}
       </ul>
