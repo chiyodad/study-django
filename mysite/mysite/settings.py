@@ -124,4 +124,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] # 추가
 
 # Media files
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DRI, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
