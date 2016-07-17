@@ -12,4 +12,5 @@ class Bookmark(models.Model):
         verbose_name = '북마크'
 
     def __str__(self):
-        return self.title
+        # return self.title
+        return "%s %s" %(self.title, self.url)
