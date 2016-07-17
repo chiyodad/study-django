@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bookmark.apps.BookmarkConfig' # 2.2.6 설정 클래스 등록
 ]
 
 MIDDLEWARE_CLASSES = [
