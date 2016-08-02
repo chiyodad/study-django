@@ -10,11 +10,11 @@ print(query_set.query)
 ```
 #### Model Name 으로 object 가져오기
 
-`django.apps.apps.AppConfig.get_model()` 사용
+`django.apps.apps.get_model()` 사용
 
 ```
 from django.apps import apps
-model_obj = apps.AppConfig.get_model(model_name)
+model_obj = apps.get_model(app_name, model_name);
 query_sets = model_obj.objects.all()
 print(query_sets.query)
 ```
